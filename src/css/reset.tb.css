@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul,
+img,
+select {
+    margin: 0;
+    padding: 0
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: courier new, courier, monospace
+}
+
+small {
+    font-size: 12px
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+sup {
+    vertical-align: text-top
+}
+
+sub {
+    vertical-align: text-bottom
+}
+
+legend {
+    color: #000
+}
+
+fieldset,
+img {
+    border: 0
+}
+
+
+/* 
+display:inline-block 
+
+替代元素：标签在浏览器中显示的具体内容，根据标签的属性来定，有自己的宽度高度，宽高比； img src="xx" input type="xx" iframe src=""
+
+非替代元素：<span>xx</span> <em>em</em>
+*/
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%
+}
+
+button {
+    border-radius: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}

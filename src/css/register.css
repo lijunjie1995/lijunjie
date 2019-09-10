@@ -1,0 +1,371 @@
+@charset "utf-8";
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+    height:0;
+    overflow: hidden;
+    visibility:hidden;
+}
+.left{
+float: left;
+}
+.right{
+    float: right;
+}
+header .Advertisement{
+    width: 100%;
+    height: 50px;
+    background-color: #3c1158;
+}
+header .Advertisement div{
+    width:980px;
+    margin: 0 auto;
+}
+header .head-content{
+    background-color: #f8f8f8;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    position: relative;
+    z-index: 290;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+    height:0;
+    overflow: hidden;
+    visibility:hidden;
+}
+/* 主题内容 */
+.main{
+    width: 1190px;
+    margin:0 auto;
+}
+.logobar{
+    padding: 30px 0;
+}
+.logo span{
+    display: inline-block;
+    font-size: 25px;
+    color:black;
+    margin-left: 10px;
+    line-height: 50px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+.help{
+    padding-top: 40px;
+} 
+.help a{
+    color: #333;
+}
+.help a:hover{
+    color: #e62318;
+}
+.user-content{
+    border: 1px solid #d7d7d7;
+    padding: 40px;
+    padding-right: 0;
+}
+.register{
+    width: 768px;
+    border-right: 1px solid #ddd;
+    color: #555;
+}
+.login{
+    width: 220px;
+    margin-right: 80px;
+    color: #555;
+}
+label.tips {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+}
+.register p{
+    margin-bottom: 20px;
+}
+.register p a{
+    color:#4a92f5;
+}
+.register p a:hover{
+    color:#cf000e;
+}
+.register input{
+height: 40px;
+line-height: 40px;
+width: 296px;
+border: 1px solid #d5d5d5;
+font-size: 14px;
+padding: 0 5px;
+outline: 0;
+}
+.register input[type='checkbox']{
+    margin-left: 100px;
+width: 15px;
+height: 15px;
+vertical-align: bottom;
+}
+.register input[type='submit']{
+    cursor: pointer;
+    background: #cf000e;
+    width: 308px;
+    height: 42px;
+    border: none;
+    margin-left: 100px;
+    color:white;
+}
+.codei{
+    position: absolute;
+    left: 294px;
+    top: 4px;
+    vertical-align: top;
+    width: 111px;
+    height: 34px;
+    line-height: 34px;
+    background: #f0f0f0;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+.code-parent{
+    position: relative;
+}
+.register #form #usernamespan,
+.register #form #passwordspan,
+.register #form #passRepeatspan,
+.register #form #phonenumspan,
+.register #form #codespan{
+    display: inline-block;
+    padding: 5px;
+    line-height: 15px;
+    height: 30px;
+    width: 255px;
+    color: #d10000;
+    background: #fff3f3;
+    border: solid 1px #ffe4e4;
+    vertical-align: top;
+    opacity: 0;
+}
+.register #form #passRepeatspan,
+.register #form #phonenumspan,
+.register #form #codespan{
+    line-height: 30px;
+}
+/* 其他方式登录 */
+.userlogin{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+.userlogin a{
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    background: #cf000e;
+    border: 0;
+    height: 32px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff!important;
+    font-size: 14px;
+}
+.longin-api img{
+    display: block;
+    margin: 90px 0 10px 40px;
+    width: 120px;
+    height:120px;
+}
+.longin-api p{
+    margin-left: 40px;
+}
+.longin-mode{
+    margin-top: 50px;
+    padding: 10px 0;
+    border-top:1px solid #eee;
+}
+.longin-mode a{
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.longin-mode a:nth-of-type(1){
+    background: url(https://static.mllres.com/mll/mpg/login/i/allPuzzle.png) no-repeat 0 0;
+}
+.longin-mode a:nth-of-type(2){
+    background: url(https://static.mllres.com/mll/mpg/login/i/allPuzzle.png) no-repeat -28px 0;
+}
+.longin-mode a:nth-of-type(3){
+    background: url(https://static.mllres.com/mll/mpg/login/i/allPuzzle.png) no-repeat -86px 0;
+}
+/* 尾部 */
+.footer-icon{
+    background: #f8f8f8;
+    padding: 35px 0;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+.footer-icon ._view_{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-icon ._view_ a{
+    width: 150px!important;
+    display: inline-block;
+    height: 80px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+.footer-icon ._view_ a i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.footer-icon ._view_ a span{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-icon ._view_ a .icon-1{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat;
+}
+.footer-icon ._view_ a .icon-2{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat -50px 0;
+}
+.footer-icon ._view_ a .icon-3{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat -100px 0;
+}
+.footer-icon ._view_ a .icon-4{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat -150px 0;
+}
+.footer-icon ._view_ a .icon-5{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat 0 -50px;
+}
+.footer-icon ._view_ a .icon-6{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat -50px -50px;
+}
+.footer-icon ._view_ a .icon-7{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat -100px -50px;
+}
+.footer-icon ._view_ a .icon-8{
+    background: url(https://static.mllres.com/mll/common/footer/i/footerIcon.png) no-repeat -150px -50px;
+}
+
+._view_{
+    width: 1200px;
+    margin: 0 auto;
+}
+.red{
+    color:#e62318!important;
+}
+
+.footer-extend{
+    background: #1f1f1f;
+    padding: 21px 0 30px;
+}
+.footer-extend .footer-link{
+    border-bottom: solid 1px #2e2e2e;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.footer-extend .footer-link li{
+    height: 20px;
+    overflow: hidden;
+    color: #777;
+    position: relative;
+}
+.footer-extend .footer-link li .swich{
+    padding-right: 25px;
+    line-height: 20px;
+}
+.footer-extend .footer-link li span {
+    margin-right: 10px;
+}
+.footer-extend .footer-link li a {
+    color: #777;
+    margin-right: 20px;
+}
+.footer-extend .footer-link li i{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 3px;
+    cursor: pointer;
+    width: 15px;
+    height: 13px;
+    background: url(https://static.mllres.com/mll/common/footer/i/footer.png) -23px -265px no-repeat;
+}
+ .footer-extend .footer-copyrights {
+    position: relative;
+    color: #777;
+}
+.footer-extend .footer-copyrights .copyrights {
+    height: 40px;
+}
+.mll-footer .footer-extend .footer-copyrights .copyrights li {
+    height: 20px;
+    line-height: 20px;
+}
+.footer-extend .footer-copyrights a {
+    color: #777;
+}
+.mll-footer .footer-extend .footer-copyrights .credit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li {
+    float: left;
+    height: 40px;
+    padding-left: 15px;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li i {
+    display: inline-block;
+    width: 27px;
+    margin-right: 5px;
+    background-image: url(https://static.mllres.com/mll/common/footer/i/credit.png);
+    background-repeat: no-repeat;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li .icon-1 {
+    height: 22px;
+    background-position: 0 0;
+    margin-top: 12px;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li .icon-2 {
+    height: 21px;
+    background-position: 0 -47px;
+    margin-top: 11px;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li .icon-3 {
+    height: 25px;
+    background-position: 0 -22px;
+    margin-top: 9px;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li .icon-4 {
+    width: 32px;
+    height: 26px;
+    background-position: 0 -69px;
+    margin-top: 9px;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li span {
+    width: 50px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.mll-footer .footer-extend .footer-copyrights .credit li:nth-child(1) span{
+    line-height: 40px;
+    height: 40px;
+}
